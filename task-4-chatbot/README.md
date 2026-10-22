@@ -1,16 +1,11 @@
-# Hangman Word Guessing Game 🎮
+💬 Task 4 — Rule-Based Interactive Terminal Assistant
 
-This is a terminal-based Hangman game built in Python as part of my Datheon internship.
+A simple, rule-based chatbot built entirely in Python that runs in the terminal. It responds to user greetings, answers business hour questions, provides product FAQs, and gracefully handles unrecognized inputs — all without requiring any external libraries or API keys.
 
-## Features
-- Randomly selects a word from a predefined list.
-- Tracks correct and incorrect guesses.
-- Prevents duplicate guesses from penalizing the player.
-- Shows a visual progress tracker (Attempt 1/6 to Game Over).
-- Input validation (only accepts single letters, ignores numbers/multiple letters).
+## 📁 Project Structure
 
-## How to Run
-1. Make sure you have Python installed.
-2. Clone this repository.
-3. Open your terminal and run:
-   `python hangman.py`
+```text
+task-4-chatbot/
+├── chatbot.py         # Main chatbot script containing all logic
+├── sample_faq.json    # JSON dataset holding greetings and FAQ knowledge base
+└── README.md          # Project documentation (you are here)
